@@ -1,0 +1,28 @@
+<html>
+<head><title>Attribute Selectors</title>	
+<style >
+	#c[color]{
+	background-color:cyan;
+	color:red;
+}
+	#one[size]{
+	 font-size:25px ;
+}
+</style>
+</head>
+<body>
+	<h1><u><center>Atrribute Selectors</center></u></h1>
+	<p>The CSS Attribute Selector is used to select an element with some specific attribute or attribute value.
+	It is an excellent way to style the HTML elements by grouping them based on some specific attributes 
+	and the attribute selector will select those elements with similar attributes.</p>
+	<p>Attribute Selectors is represented by "[,]" ("Square brackets"). And the syntax of the Attribute selector was<br>
+	[attribute|="value"] <br>
+	<h2><u>Example:-</u></h2>
+
+	<p><font id="c" color="green">Here we are given the font color to be red but by using the attribute selector we can
+	change the color of the font attribute without changing the font attribute</font></p>
+
+	<p><font id="one" color="red" size="5">here in the font tag we given color,size but we are only
+	changing the size of the paragraph by using attribute selector<br> i.e., font-size:25px</font></p>
+</body>
+</html>
